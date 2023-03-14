@@ -1,0 +1,170 @@
+20230312 18:50:18 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java40 - test started
+20230313 00:59:59 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java74 - Inside test getUserData
+20230313 00:59:59 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 01:00:20 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java97 - Inside test CreateUserData
+20230313 01:00:20 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 01:00:21 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java122 - Inside test updateUserData
+20230313 01:00:21 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 01:00:24 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java143 - Inside test deleteUserData
+20230313 01:00:24 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 01:01:13 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java74 - Inside test getUserData
+20230313 01:01:13 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 01:01:33 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java97 - Inside test CreateUserData
+20230313 01:01:33 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 01:01:34 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java122 - Inside test updateUserData
+20230313 01:01:34 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 01:01:37 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java143 - Inside test deleteUserData
+20230313 01:01:37 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 01:21:43 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java75 - Inside test getUserData
+20230313 01:21:43 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java45 - Inside test Login to API
+20230313 01:21:45 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java98 - Inside test CreateUserData
+20230313 01:21:45 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java45 - Inside test Login to API
+20230313 01:21:45 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java123 - Inside test updateUserData
+20230313 01:21:45 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java45 - Inside test Login to API
+20230313 01:21:45 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java144 - Inside test deleteUserData
+20230313 01:21:45 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java45 - Inside test Login to API
+20230313 01:30:16 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java77 - Inside test getUserData
+20230313 01:30:16 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:30:17 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java100 - Inside test CreateUserData
+20230313 01:30:17 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:30:17 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java125 - Inside test updateUserData
+20230313 01:30:17 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:30:17 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java146 - Inside test deleteUserData
+20230313 01:30:17 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:44:55 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java77 - Inside test getUserData
+20230313 01:44:55 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:44:56 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java100 - Inside test CreateUserData
+20230313 01:44:56 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:44:56 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java125 - Inside test updateUserData
+20230313 01:44:56 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:44:56 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java146 - Inside test deleteUserData
+20230313 01:44:56 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:53:40 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java77 - Inside test getUserData
+20230313 01:53:40 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:53:53 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java100 - Inside test CreateUserData
+20230313 01:53:53 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:53:56 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java125 - Inside test updateUserData
+20230313 01:53:56 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 01:53:59 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java146 - Inside test deleteUserData
+20230313 01:53:59 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 02:08:05 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java71 - Inside test getUserData
+20230313 02:08:05 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 02:08:20 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java91 - Inside test CreateUserData
+20230313 02:08:20 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 02:08:21 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java115 - Inside test updateUserData
+20230313 02:08:21 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 02:08:25 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java135 - Inside test deleteUserData
+20230313 02:08:25 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java46 - Inside test Login to API
+20230313 02:23:54 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java78 - Inside test getUserData
+20230313 02:23:54 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:24:06 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java101 - Inside test CreateUserData
+20230313 02:24:06 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:24:07 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java129 - Inside test updateUserData
+20230313 02:24:07 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:24:10 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java153 - Inside test deleteUserData
+20230313 02:24:10 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:27:03 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java74 - Inside test getUserData
+20230313 02:27:03 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 02:27:03 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java97 - Inside test CreateUserData
+20230313 02:27:03 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 02:27:03 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java122 - Inside test updateUserData
+20230313 02:27:03 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 02:27:03 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java143 - Inside test deleteUserData
+20230313 02:27:03 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 02:28:29 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java78 - Inside test getUserData
+20230313 02:28:29 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:28:29 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java101 - Inside test CreateUserData
+20230313 02:28:29 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:28:29 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java129 - Inside test updateUserData
+20230313 02:28:29 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:28:29 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java153 - Inside test deleteUserData
+20230313 02:28:29 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:28:46 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java78 - Inside test getUserData
+20230313 02:28:46 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:28:46 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java101 - Inside test CreateUserData
+20230313 02:28:46 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:28:47 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java129 - Inside test updateUserData
+20230313 02:28:47 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:28:47 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java153 - Inside test deleteUserData
+20230313 02:28:47 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:29:38 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java74 - Inside test getUserData
+20230313 02:29:38 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 02:30:01 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java97 - Inside test CreateUserData
+20230313 02:30:01 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 02:30:02 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java122 - Inside test updateUserData
+20230313 02:30:02 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 02:30:06 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java143 - Inside test deleteUserData
+20230313 02:30:06 INFO  [main] testsLeti.ApiAllTestsLeti ApiAllTestsLeti.java45 - Inside test Login to API
+20230313 02:30:47 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java78 - Inside test getUserData
+20230313 02:30:47 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:31:07 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java101 - Inside test CreateUserData
+20230313 02:31:07 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:31:08 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java129 - Inside test updateUserData
+20230313 02:31:08 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 02:31:11 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java153 - Inside test deleteUserData
+20230313 02:31:11 INFO  [main] testsLeti.ApiAllTestsLetiWithConstants ApiAllTestsLetiWithConstants.java50 - Inside test Login to API
+20230313 17:06:47 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:25:10 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230313 17:25:17 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:25:17 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:25:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:25:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:26:11 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230313 17:26:17 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:26:17 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:26:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:26:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:26:37 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:26:57 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:27:16 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:27:33 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:27:56 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:28:22 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:28:37 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:29:19 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:29:37 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:36:12 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230313 17:36:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:36:19 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:36:19 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:36:20 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:37:39 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java44 - Logger : Inside test TC1 getEmployeeList
+20230313 17:37:45 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java80 - Logger : Inside test TC2 CreateEmployee
+20230313 17:37:45 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java115 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:37:46 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java153 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:37:46 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:38:35 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java44 - Logger : Inside test TC1 getEmployeeList
+20230313 17:38:39 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java80 - Logger : Inside test TC2 CreateEmployee
+20230313 17:38:39 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java115 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:38:40 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java153 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:38:40 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:38:54 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java44 - Logger : Inside test TC1 getEmployeeList
+20230313 17:38:59 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java80 - Logger : Inside test TC2 CreateEmployee
+20230313 17:39:00 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java115 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:39:00 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java153 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:39:00 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:40:19 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230313 17:40:25 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:40:25 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:40:26 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:40:26 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:47:44 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230313 17:47:49 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:47:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:47:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:47:51 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:48:47 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230313 17:48:53 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:48:54 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:48:54 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:48:54 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:49:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230313 17:49:21 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:49:22 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:49:22 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:49:23 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230313 17:49:46 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230313 17:49:49 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230313 17:49:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
+20230313 17:49:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
+20230313 17:49:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo

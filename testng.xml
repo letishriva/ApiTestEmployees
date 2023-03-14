@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XApiEmployees">
+	
+	<listeners>
+        <listener class-name="com.utility.testNGListenersApi"/>
+      
+    </listeners>
+        
+	<test  thread-count="1" name="5 API Employees Test cases">
+		<parameter name="uri" value=""></parameter>
+		 <classes>
+		 	<class name="com.testsLeti.ApiEmployeeTestsEndToEnd" /> 	 	
+		 </classes>
+	</test>
+</suite>
+

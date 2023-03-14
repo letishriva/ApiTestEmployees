@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sales Force]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.utility.testNGListenersApi"/>
+  </listeners>
+  <test thread-count="5" name="5 API Test cases(failed)">
+    <parameter name="url" value=""/>
+    <classes>
+      <class name="com.testsLeti.ApiAllTestsLetiWithConstants">
+        <methods>
+          <include name="setUpBeforeTest"/>
+          <include name="updateUserData"/>
+          <include name="getUserData"/>
+          <include name="deleteUserData"/>
+          <include name="CreateUserData"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.testsLeti.ApiAllTestsLetiWithConstants -->
+    </classes>
+  </test> <!-- 5 API Test cases(failed) -->
+</suite> <!-- Failed suite [Sales Force] -->

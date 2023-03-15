@@ -15,6 +15,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.utility.Constants;
+import com.utility.Endpoints;
 import com.utility.ExtentReportsUtility;
 
 public class ApiEmployeeTestsEndToEnd {
@@ -39,24 +40,18 @@ public class ApiEmployeeTestsEndToEnd {
 		
 		@Test(priority = 1)
 		public void TC1GetEmployeeList() throws Exception, Exception {
-			System.out.println("Inside test TC1 getEmployeeList");
 			logger.info("Logger : Inside test TC1 getEmployeeList");
 			Response res = RestAssured
 					.given()
 					.when()
-					.get("/employees");
+					.get(Endpoints.EMPLOYEES_PATH); //Constants
 			
-			res.then().statusCode(200); // one way
-			assertEquals(base.getStatusCode(res), 200);//other way
-			
-			int statuscode=res.statusCode();
-			System.out.println("status code="+statuscode); // 200 
-			
-			res.then().contentType(ContentType.JSON); //one way
-			assertEquals(base.getContentType(res), "application/json"); //other way
-			
-			res.then().body("status",is("success")); // Hamcrest matchers to validate		
+			BaseMethods.validateStatusCode(res, 200);
+			BaseMethods.validateMessage(res,"success");// Hamcrest matchers to validate	
+			assertEquals(base.getContentType(res), "application/json"); //one way
+			//res.then().contentType(ContentType.JSON); //one way
 
+			
 			// Getting the records different ways
 			// res.prettyPrint();// print all records  Yes
 			System.out.println(res.getBody().asString()); //String results of all records 
@@ -75,21 +70,17 @@ public class ApiEmployeeTestsEndToEnd {
 		
 		@Test(priority = 2)
 		public void TC2CreateEmployee() throws Exception, Exception {
-			System.out.println("Inside test TC2 CreateEmployee");
 			logger.info("Logger : Inside test TC2 CreateEmployee");
 			Response res = RestAssured
 					.given()
 					.contentType(ContentType.JSON)
-					.body("{\"name\":\"test\",\"salary\":\"123\",\"age\":\"23\"}")
+					.body(Endpoints.CREATE_EMPLOYEE_BODY)
 					.when()
-					.post("/create");
+					.post(Endpoints.CREATE_PATH); 
 			
-			res.then().statusCode(200);
-			int statuscode=res.statusCode();
-			System.out.println("status code="+statuscode); // 200 
-			res.then().body("status",is("success")); // Hamcrest matchers to validate
-			
-			res.prettyPrint(); // we print the response to be able to create -> CreateEmployeeResponsePOJO file
+			BaseMethods.validateStatusCode(res, 200);
+			BaseMethods.validateMessage(res,"success");
+			BaseMethods.printToConsole(res); // we print the response to be able to create -> CreateEmployeeResponsePOJO file
 			
 			// Deserialize the response body into a createEmployeeResponsePOJO object
 			ObjectMapper objectMapper = new ObjectMapper();
@@ -101,29 +92,26 @@ public class ApiEmployeeTestsEndToEnd {
 			System.out.println("Id extracted from responsePOJO: " + employeeId); // 1559 - we then keep employeeId as a class-level variable
 			
 			// verify the name,salary and age data from response is as same as in the request
-			Assert.assertEquals(employeeData.getName(), "test"); 
-			Assert.assertEquals(employeeData.getSalary(), "123");
-			Assert.assertEquals(employeeData.getAge(), "23");
-			// assertions pass
-			
+			String nameTest = Constants.getNameTest();
+			String salaryTest = Constants.getSalaryTest();
+			String ageTest = Constants.getAgeTest();
+			Assert.assertEquals(employeeData.getName(), nameTest); 
+			Assert.assertEquals(employeeData.getSalary(), salaryTest);
+			Assert.assertEquals(employeeData.getAge(), ageTest);
 			}
 		
 		@Test (priority = 3)
 		public void TC3DeleteEmployee() throws Exception, Exception {
-			System.out.println("Inside test TC3 DeleteEmployee");
 			logger.info("Logger : Inside test TC3 DeleteEmployee");
 			Response res = RestAssured
 					.given()
 					.contentType(ContentType.JSON)
 					.when()
-					.delete("/delete/employeeId"); //variable from TC2 // 5819
-			
-			
-			res.then().statusCode(200);
-			int statuscode=res.statusCode();
-			System.out.println("status code="+statuscode); // 200 
-			res.then().body("status",is("success")); // Hamcrest matchers to validate
-			res.prettyPrint(); // fetch the message data and print it to console + we get the following response and create the DeleteEmployeeResponsePOJO file
+					.delete(Endpoints.DELETE_EMP_ID_PATH); //variable from TC2 // 5819
+						
+			BaseMethods.validateStatusCode(res, 200);
+			BaseMethods.validateMessage(res,"success");
+			BaseMethods.printToConsole(res); // we get the following response and create the DeleteEmployeeResponsePOJO file
 									
 			/*// CONSOLE EXAMPLE:==============
 			Inside test TC3 DeleteEmployee
@@ -142,52 +130,58 @@ public class ApiEmployeeTestsEndToEnd {
 			int actualDeletedIdInt = Integer.parseInt(actualDeletedId);
 			System.out.println(" EmployeeId deleted is: "+ actualDeletedIdInt);
 		    Assert.assertEquals(actualDeletedIdInt, employeeId);
-		 // assertion pass
-		}
-		    
+			}
 		    
 		    @Test (priority = 4)
-			public void TC4DeleteEmployeeWithParam0() throws Exception, Exception {
-				System.out.println("Inside test TC4 DeleteEmployeeWithParam0");
-				logger.info("Logger: Inside test TC4 DeleteEmployeeWithParam0");
+			public void TC4DeleteEmployeeWithParam() throws Exception, Exception {
+				logger.info("Logger: Inside test TC4 DeleteEmployeeWithParam"); 
+				
 				Response res = RestAssured
 						.given()
 						.contentType(ContentType.JSON)
 						.when()
-						.delete("/delete/0"); 
-						
-				res.then().statusCode(400);
-				int statuscode=res.statusCode();
-				System.out.println("status code="+statuscode); // 400 
-				res.then().body("status",is("error")); // assertion pass
-				res.prettyPrint(); // fetch the message data and print it to console 
-										
-				/*//===================== CONSOLE EXAMPLE:
-				status code=400
-				{
-    			"status": "error",
-    			"message": "Not found record",
-    			"code": 400,
-    			"errors": "id is empty"
-				}
-				=====================
-				 */			
+						.delete(Endpoints.DELETE_CHOSEN_ID_PATH); //0
+				
+				BaseMethods.printToConsole(res);			
+				BaseMethods.validateStatusCode(res, 400);
+				BaseMethods.validateMessage(res,"error");
+				
+				//assertEquals(base.getStatusCode(res), 400);//other way -> used in Reusable method
+				//res.then().body("status",is("error")); // -> used in Reusable method
+				//I am validating the response status code - as I will perform action again? -> reusable method
+				//provide input int argument that will be 400 + argument Response										
 		    }
 		    
 			@Test(priority = 5)
 			public void TC5GetEmployeeInfo() throws Exception, Exception {
-				System.out.println("Inside test TC5 getEmployeeInfo");
 				logger.info("Logger: Inside test TC5 getEmployeeInfo");
 				Response res = RestAssured
 						.given()
 						.when()
-						.get("/employee/2");
-				res.then().statusCode(200);
-				int statuscode=res.statusCode();
-				System.out.println("status code="+statuscode); 
+						.get(Endpoints.GET_CHOSEN_ID_PATH); //2
+				BaseMethods.validateStatusCode(res, 200);
 				res.then().contentType(ContentType.JSON); 
-				res.then().body("status",is("success"));  
-				res.prettyPrint();// print details for employee with id=2
+				BaseMethods.validateMessage(res,"success");
+				BaseMethods.printToConsole(res);;// print details for employee with id=2
+				
+				// We fetch the employee_name using Rest Assured jsonPath()
+				//String actualEmployeeName = res.jsonPath().getString("data.employee_name");
+				// System.out.println("Employee Name for id chosen is: " + actualEmployeeName);
+				String actualEmployeeName = BaseMethods.getDataEmployee(res,"data.employee_name");
+				String actualEmployeeSalary = BaseMethods.getDataEmployee(res,"data.employee_salary");
+				String actualEmployeeAge  = BaseMethods.getDataEmployee(res, "data.employee_age");//String (getInt is not needed)
+				
+				String nameChosen = Constants.getNameChosen();
+				String salaryChosen = Constants.getSalaryChosen();
+				String ageChosen = Constants.getAgeChosen();
+				
+				Assert.assertEquals(actualEmployeeName,nameChosen);
+				Assert.assertEquals(actualEmployeeSalary, salaryChosen);
+				Assert.assertEquals(actualEmployeeAge, ageChosen);
+				
+				// other way to assess:
+				res.then().body("data.employee_age",is(63));
+				
 				
 				/*//CONSOLE:=================				
 				{
@@ -203,19 +197,6 @@ public class ApiEmployeeTestsEndToEnd {
 				}
 				===============================	
 				*/
-	
-				// We fetch the employee_name using Rest Assured jsonPath()
-				String actualEmployeeName = res.jsonPath().getString("data.employee_name");
-				System.out.println("Employee Name for id number 2 is: " + actualEmployeeName);
-				String actualEmployeeSalary = res.jsonPath().getString("data.employee_salary");//String (getInt is not needed)
-				System.out.println("Employee Salary for id number 2 is: " + actualEmployeeSalary);
-				String actualEmployeeAge = res.jsonPath().getString("data.employee_age");//String (getInt is not needed)
-				System.out.println("Employee Age for id number 2 is: " + actualEmployeeAge);
-				
-				Assert.assertEquals(actualEmployeeName,"Garrett Winters");
-				Assert.assertEquals(actualEmployeeSalary, "170750");
-				Assert.assertEquals(actualEmployeeAge, "63");
-				// assertions pass
 			}
 		
 }

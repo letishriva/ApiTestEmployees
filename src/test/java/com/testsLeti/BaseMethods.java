@@ -1,7 +1,10 @@
 package com.testsLeti;
+import static org.testng.Assert.assertEquals;
+import static org.hamcrest.Matchers.is;
+import io.restassured.matcher.ResponseAwareMatcher;
 import io.restassured.response.Response;
 
-public class BaseMethods {
+public class BaseMethods  {
 		
 	public int getStatusCode (Response response) {
 		return response.getStatusCode();
@@ -11,4 +14,46 @@ public class BaseMethods {
 		return response.getContentType();
 	}
 	
+	public static String getDataEmployee (Response response, String data) {
+		String dataEmp = response.jsonPath().getString(data);
+		System.out.println("Employee info for id chosen is: " + dataEmp);
+		return dataEmp;
+	}
+	
+	
+	
+	
+	public static void validateStatusCode (Response response, int code){
+		
+		response.then().statusCode(code);
+		assertEquals(response.getStatusCode(), code);
+		int statuscode=response.statusCode();
+		System.out.println("status code is ="+statuscode); // 400 
+		
+	}
+		
+	public static void	validateMessage (Response response, String Message) {
+			
+		response.then().body("status",is(Message));
+
+	}
+
+	public static void printToConsole (Response response) {
+	
+	response.prettyPrint(); // fetch the message data and print it to console 
+	
+	/*//===================== CONSOLE EXAMPLE:
+	status code=400
+	{
+	"status": "error",
+	"message": "Not found record",
+	"code": 400,
+	"errors": "id is empty"
+	}
+	=====================
+	 */			
+	}
 }
+	
+	
+

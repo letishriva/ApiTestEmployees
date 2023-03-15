@@ -9,7 +9,6 @@ public class Constants {
 	public static final String SPARKS_HTML_REPORT_PATH=USER_DIR+"/reports/testreport.html";
 
 
-
 	    private static Properties prop;
 
 	    static {
@@ -34,6 +33,31 @@ public class Constants {
 
 	    }
 	    
+	    public static String getNameTest() {
+	        return prop.getProperty("nameTest");
+
+	    }
+	    public static String getSalaryTest() {
+	        return prop.getProperty("salaryTest");
+
+	    }
+	    public static String getAgeTest() {
+	        return prop.getProperty("ageTest");
+
+	    }
+	        
+	    public static String getNameChosen() {
+	        return prop.getProperty("nameChosen");
+
+	    }
+	    public static String getSalaryChosen() {
+	        return prop.getProperty("salaryChosen");
+
+	    }
+	    public static String getAgeChosen() {
+	        return prop.getProperty("ageChosen");
+
+	    }
 }
 	
 	

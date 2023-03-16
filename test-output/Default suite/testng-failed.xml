@@ -5,9 +5,13 @@
     <classes>
       <class name="com.testsLeti.ApiEmployeeTestsEndToEnd">
         <methods>
+          <include name="setUpBeforeMethod"/>
+          <include name="TC3DeleteEmployee"/>
+          <include name="TC2CreateEmployee"/>
           <include name="init"/>
-          <include name="setUpBeforeTest"/>
+          <include name="TC1GetEmployeeList"/>
           <include name="TC5GetEmployeeInfo"/>
+          <include name="TC4DeleteEmployeeWithParam"/>
         </methods>
       </class> <!-- com.testsLeti.ApiEmployeeTestsEndToEnd -->
     </classes>

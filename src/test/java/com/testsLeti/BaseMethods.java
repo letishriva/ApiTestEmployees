@@ -1,6 +1,12 @@
 package com.testsLeti;
 import static org.testng.Assert.assertEquals;
+
+import com.utility.Endpoints;
+
 import static org.hamcrest.Matchers.is;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.matcher.ResponseAwareMatcher;
 import io.restassured.response.Response;
 
@@ -21,7 +27,25 @@ public class BaseMethods  {
 	}
 	
 	
+	public static Response getEmployeeList() {
+		Response res = RestAssured
+				.given()
+				.when()
+				.get(Endpoints.EMPLOYEES_PATH); //Constants
+		return res;
 	
+	}
+	
+	public static Response createEmployee() {
+		Response res = RestAssured
+				.given()
+				.contentType(ContentType.JSON)
+				.body(Endpoints.CREATE_EMPLOYEE_BODY)
+				.when()
+				.post(Endpoints.CREATE_PATH);
+		return res; 
+	
+	}
 	
 	public static void validateStatusCode (Response response, int code){
 		

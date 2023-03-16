@@ -41,16 +41,12 @@ public class ApiEmployeeTestsEndToEnd {
 		@Test(priority = 1)
 		public void TC1GetEmployeeList() throws Exception, Exception {
 			logger.info("Logger : Inside test TC1 getEmployeeList");
-			Response res = RestAssured
-					.given()
-					.when()
-					.get(Endpoints.EMPLOYEES_PATH); //Constants
 			
+			Response res = BaseMethods.getEmployeeList(); // here example using reusable methods
 			BaseMethods.validateStatusCode(res, 200);
 			BaseMethods.validateMessage(res,"success");// Hamcrest matchers to validate	
 			assertEquals(base.getContentType(res), "application/json"); //one way
 			//res.then().contentType(ContentType.JSON); //one way
-
 			
 			// Getting the records different ways
 			// res.prettyPrint();// print all records  Yes
@@ -71,13 +67,7 @@ public class ApiEmployeeTestsEndToEnd {
 		@Test(priority = 2)
 		public void TC2CreateEmployee() throws Exception, Exception {
 			logger.info("Logger : Inside test TC2 CreateEmployee");
-			Response res = RestAssured
-					.given()
-					.contentType(ContentType.JSON)
-					.body(Endpoints.CREATE_EMPLOYEE_BODY)
-					.when()
-					.post(Endpoints.CREATE_PATH); 
-			
+			Response res = BaseMethods.createEmployee();
 			BaseMethods.validateStatusCode(res, 200);
 			BaseMethods.validateMessage(res,"success");
 			BaseMethods.printToConsole(res); // we print the response to be able to create -> CreateEmployeeResponsePOJO file
@@ -101,7 +91,7 @@ public class ApiEmployeeTestsEndToEnd {
 			}
 		
 		@Test (priority = 3)
-		public void TC3DeleteEmployee() throws Exception, Exception {
+		public void TC3DeleteEmployee() throws Exception, Exception { //without using Reusable Methods
 			logger.info("Logger : Inside test TC3 DeleteEmployee");
 			Response res = RestAssured
 					.given()

@@ -168,3 +168,40 @@
 20230313 17:49:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java114 - Logger : Inside test TC3 DeleteEmployee
 20230313 17:49:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam0
 20230313 17:49:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployeeInfo
+20230314 21:53:02 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230314 21:56:00 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java79 - Logger : Inside test TC2 CreateEmployee
+20230314 22:02:36 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230314 22:10:26 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java180 - Logger: Inside test TC5 getEmployee2Info
+20230314 23:28:58 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java80 - Logger : Inside test TC2 CreateEmployee
+20230314 23:33:14 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230314 23:34:27 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230314 23:35:42 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230314 23:36:16 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230314 23:36:35 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230314 23:36:52 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java181 - Logger: Inside test TC5 getEmployeeInfo
+20230315 01:05:03 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java153 - Logger: Inside test TC4 DeleteEmployeeWithParam
+20230315 01:11:11 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java152 - Logger: Inside test TC4 DeleteEmployeeWithParam
+20230315 01:14:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java151 - Logger: Inside test TC4 DeleteEmployeeWithParam
+20230315 01:24:10 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java171 - Logger: Inside test TC5 getEmployeeInfo
+20230315 01:26:09 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java171 - Logger: Inside test TC5 getEmployeeInfo
+20230315 01:28:14 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java171 - Logger: Inside test TC5 getEmployeeInfo
+20230315 01:31:05 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java80 - Logger : Inside test TC2 CreateEmployee
+20230315 01:35:50 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230316 00:17:05 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230316 00:20:12 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java69 - Logger : Inside test TC2 CreateEmployee
+20230316 00:20:35 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java95 - Logger : Inside test TC3 DeleteEmployee
+20230316 00:20:54 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230316 00:20:57 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java69 - Logger : Inside test TC2 CreateEmployee
+20230316 00:20:58 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java95 - Logger : Inside test TC3 DeleteEmployee
+20230316 00:20:58 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java127 - Logger: Inside test TC4 DeleteEmployeeWithParam
+20230316 00:20:59 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java147 - Logger: Inside test TC5 getEmployeeInfo
+20230316 00:21:12 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230316 00:21:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java69 - Logger : Inside test TC2 CreateEmployee
+20230316 00:21:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java95 - Logger : Inside test TC3 DeleteEmployee
+20230316 00:21:18 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java127 - Logger: Inside test TC4 DeleteEmployeeWithParam
+20230316 00:21:19 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java147 - Logger: Inside test TC5 getEmployeeInfo
+20230316 00:21:34 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java43 - Logger : Inside test TC1 getEmployeeList
+20230316 00:21:38 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java69 - Logger : Inside test TC2 CreateEmployee
+20230316 00:21:38 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java95 - Logger : Inside test TC3 DeleteEmployee
+20230316 00:21:38 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java127 - Logger: Inside test TC4 DeleteEmployeeWithParam
+20230316 00:21:39 INFO  [main] testsLeti.ApiEmployeeTestsEndToEnd ApiEmployeeTestsEndToEnd.java147 - Logger: Inside test TC5 getEmployeeInfo

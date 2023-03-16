@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [XApiEmployees]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.utility.testNGListenersApi"/>
-  </listeners>
-  <test thread-count="5" name="5 API Employees Test cases(failed)">
-    <parameter name="uri" value=""/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.testsLeti.ApiEmployeeTestsEndToEnd">
         <methods>
@@ -13,10 +9,11 @@
           <include name="TC3DeleteEmployee"/>
           <include name="TC2CreateEmployee"/>
           <include name="init"/>
+          <include name="TC1GetEmployeeList"/>
           <include name="TC5GetEmployeeInfo"/>
-          <include name="TC4DeleteEmployeeWithParam0"/>
+          <include name="TC4DeleteEmployeeWithParam"/>
         </methods>
       </class> <!-- com.testsLeti.ApiEmployeeTestsEndToEnd -->
     </classes>
-  </test> <!-- 5 API Employees Test cases(failed) -->
-</suite> <!-- Failed suite [XApiEmployees] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
